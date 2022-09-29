@@ -1,13 +1,12 @@
+/****************** Hardware **************************
 
-/* TODO
-    un chrono pour la durée de monté et descente de la porte
-    détecter position initiale de la porte avec les capteurs à effet hall, (et lever la porte quand on boote le système si état inconnu ?)
-    integrer le board au blog
-    calcul levé et couhcer de soleil : https://github.com/signetica/SunRise
-*/
+    arduino uno / nano
+    capteur hall > capteur à placer pour la fermeture (new)
+    DC + driver
+    clock DS3231
+    bouton poussoir
 
-
-/******************* Librairies **************************/
+****************** Librairies **************************/
 
 
 // INCLUDE CHRONO LIBRARY : http://github.com/SofaPirate/Chrono
